@@ -1,4 +1,0 @@
-require 'billit_representers/representers/paperwork_collection_representer'
-class BillitPaperworkCollection
-  include Billit::PaperworkCollectionRepresenter
-end
