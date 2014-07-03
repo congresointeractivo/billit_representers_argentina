@@ -1,13 +1,14 @@
 Gem::Specification.new do |gem|
-  gem.name        = 'billit_representers'
+  gem.name        = 'billit_representers_argentina'
   gem.version     = '0.9.9'
-  gem.date        = '2014-07-01'
+  gem.date        = '2014-07-03'
   gem.summary     = "Representers for the bill-it module of the Poplus project."
   gem.description = "Representers for the bill-it module of the Poplus project. These provide object-like access to remote data, using Resource-Oriented Architectures in Ruby (ROAR)."
-  gem.authors     = ["Marcel Augsburger"]
-  gem.email       = 'devteam@ciudadanointeligente.org'
-  gem.homepage    = 'https://github.com/ciudadanointeligente/billit_representers'
+  gem.authors     = ["Marcel Augsburger", "Martín Szyszlican"]
+  gem.email       = 'contacto@congresointeractivo.org'
+  gem.homepage    = 'https://github.com/congresointeractivo/billit_representers_argentina'
   gem.license     = 'GPL-3'
+  gem.metadata    = ''
 
   gem.files       = `git ls-files`.split("\n")
 
