@@ -1,0 +1,4 @@
+require 'billit_representers_argentina/representers/directive_representer'
+class BillitDirective
+  include Billit::DirectiveRepresenter
+end
