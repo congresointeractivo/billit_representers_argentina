@@ -45,6 +45,7 @@ module Billit
       klass.validates :stage, inclusion: { in: @@stage_valid_values }
       klass.validates :initial_chamber, inclusion: { in: @@initial_chamber_valid_values }
       klass.validates :current_priority, inclusion: { in: @@current_priority_valid_values }
+      klass.validates :project_type, inclusion: { in: @@project_type_valid_values }
     end
 
     property :uid
@@ -55,6 +56,7 @@ module Billit
     property :initial_chamber
     property :current_priority
     property :stage
+    property :proect_type
     property :sub_stage
     property :status
     property :resulting_document
@@ -176,7 +178,14 @@ module Billit
     @@initial_chamber_valid_values =
       [
         'Diputados',
-        'Senadores'
+        'Senado'
+      ]
+
+    @@project_type_valid_values =
+      [
+        'Ley',
+        'Resolución',
+        'Declaración'
       ]
 
 
