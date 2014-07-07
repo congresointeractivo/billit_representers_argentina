@@ -51,6 +51,7 @@ module Billit
     property :publish_date
     property :abstract
     property :tags
+    property :project_type
 
     link :self do
       bill_url(self.uid)
